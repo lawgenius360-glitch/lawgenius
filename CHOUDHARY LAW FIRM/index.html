@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHOUDHARY LAW FIRM - Professional Legal Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="lawyer logo.png" alt="" height="90px" />
+          <!-- <i class="fas fa-balance-scale"></i> -->
+          <span>CHOUDHARY LAW FIRM</span>
+        </div>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="tel:+918690152856" class="cta-button">Free Consultation</a>
+        </div>
+
+        <div class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars" id="navIcon"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-slider" id="heroSlider">
+        <div class="hero-slide active">
+          <img
+            src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg"
+            alt="Professional lawyer consultation"
+          />
+        </div>
+        <div class="hero-slide">
+          <img
+            src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg"
+            alt="Modern law office"
+          />
+        </div>
+        <div class="hero-slide">
+          <img
+            src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg"
+            alt="Legal team meeting"
+          />
+        </div>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Excellence in Legal Representation</h1>
+        <p class="hero-subtitle">
+          Trusted Law Firm with over 11+ years of experience defending your
+          rights and securing your future
+        </p>
+        <div class="hero-buttons">
+          <button
+            class="btn-primary"
+            onclick="openWhatsApp('I would like to schedule a consultation')"
+          >
+            Schedule Consultation
+          </button>
+          <button class="btn-secondary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Never-Ending Marquee Section -->
+    <section class="marquee-section">
+      <div class="marquee">
+        <div class="marquee-content">
+          <span class="icon">⚖</span> Expert Legal Advice & Guidance — Family
+          Law | Criminal Defense | Corporate Law | Cybersecurity Law | Property
+          Law | Environment Law | Consumer Rights
+          <span class="highlight">💼 8+ Years of Experience</span>
+          <span class="highlight">🏆 85 % Success Rate</span>
+        </div>
+        <div class="marquee-content">
+          <span class="icon">⚖</span> Expert Legal Advice & Guidance — Family
+          Law | Criminal Defense | Corporate Law | Cybersecurity Law | Property
+          Law | Environment Law | Consumer Rights
+          <span class="highlight">💼 8+ Years of Experience</span>
+          <span class="highlight">🏆 85% Success Rate</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Protect Your Rights?</h2>
+          <p>
+            Don't wait. Get the professional legal representation you deserve
+            today.
+          </p>
+          <button
+            class="btn-primary large"
+            onclick="openWhatsApp('I would like to get a free consultation')"
+          >
+            Get Free Consultation
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg"
+              alt="Legal team"
+            />
+          </div>
+          <div class="about-content">
+            <h2 class="section-title">About CHOUDHARY LAW FIRM</h2>
+            <p class="about-text">
+              For over 8+ years, CHOUDHARY LAW FIRM has been a beacon of legal
+              excellence, providing comprehensive legal services with unwavering
+              dedication to our clients' success.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat">
+                <div class="stat-number"><span class="count">8</span>+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <!-- <div class="stat">
+                <div class="stat-number">500 +</div>
+                <div class="stat-label">Cases Won</div>
+              </div> -->
+              <div class="stat">
+                <div class="stat-number">85%</div>
+                <div class="stat-label">Success Rate</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">OnTime</div>
+                <div class="stat-label">Available</div>
+              </div>
+            </div>
+
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <div>
+                  <h4>Proven Track Record</h4>
+                  <p>
+                    Consistently delivering favorable outcomes for our clients
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-handshake"></i>
+                <div>
+                  <h4>Personal Attention</h4>
+                  <p>
+                    Every client receives dedicated, personalized legal
+                    representation
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title centered">Our Legal Services</h2>
+        <p class="section-subtitle centered">
+          Comprehensive legal solutions tailored to your specific needs
+        </p>
+
+        <div class="services-grid">
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Corporate Law services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Corporate Law</h3>
+            <p>
+              Complete business legal services including contracts, mergers, and
+              corporate governance.
+            </p>
+            <ul>
+              <li>Business Formation</li>
+              <li>Contract Negotiation</li>
+              <li>Mergers & Acquisitions</li>
+              <li>Corporate Compliance</li>
+            </ul>
+          </div>
+
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Real Estate Law services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3>Cybercrime & Data security</h3>
+            <p>
+              Expert guidance on all aspects of digital security, cybercrime
+              prevention, and data protection.
+            </p>
+            <ul>
+              <li>Cybercrime Investigation & Litigation</li>
+              <li>Data Breach Response & Recovery</li>
+              <li>Regulatory Compliance & Risk Assessment</li>
+              <li>Cybersecurity Policies & Contracts</li>
+            </ul>
+          </div>
+
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Family Law services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Family Law</h3>
+            <p>
+              Compassionate legal support for sensitive family matters and
+              domestic relations.
+            </p>
+            <ul>
+              <li>Divorce Proceedings</li>
+              <li>Child Custody</li>
+              <li>Adoption Services</li>
+              <li>Prenuptial Agreements</li>
+            </ul>
+          </div>
+
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Criminal Defense services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-gavel"></i>
+            </div>
+            <h3>⁠Consumer Laws</h3>
+            <p>
+              Dedicated advocacy to safeguard your rights and resolve disputes
+              in consumer-related matters.
+            </p>
+            <ul>
+              <li>Unfair Trade Practices</li>
+              <li>Defective Products & Product Liability</li>
+              <li>Fraud & Misrepresentation</li>
+              <li>Consumer Complaint & Appeals Process</li>
+            </ul>
+          </div>
+
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Personal Injury services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-car-crash"></i>
+            </div>
+            <h3>Property laws</h3>
+            <p>
+              Comprehensive legal support to protect your ownership rights and
+              resolve real estate disputes.
+            </p>
+            <ul>
+              <li>Property Disputes & Litigation</li>
+              <li>Landlord–Tenant Issues</li>
+              <li>Title & Ownership Claims</li>
+              <li>Property Transfer & Registration</li>
+            </ul>
+          </div>
+
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Estate Planning services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-file-signature"></i>
+            </div>
+            <h3>⁠Information Technology Laws</h3>
+            <p>
+              Comprehensive legal solutions to safeguard your digital assets and
+              ensure compliance in the tech space.
+            </p>
+            <ul>
+              <li>IT Contract Drafting & Review</li>
+              <li>Data Privacy & Protection Compliance</li>
+              <li>Cybersecurity Governance</li>
+              <li>Intellectual Property in Technology</li>
+            </ul>
+          </div>
+          <div
+            class="service-card"
+            onclick="openWhatsApp('I need help with Estate Planning services')"
+          >
+            <div class="service-icon">
+              <i class="fas fa-file-signature"></i>
+            </div>
+            <h3>Environment Laws</h3>
+            <p>
+              Strategic legal guidance to protect natural resources and ensure
+              compliance with environmental regulations.
+            </p>
+            <ul>
+              <li>Environmental Compliance & Audits</li>
+              <li>Pollution Control & Waste Management</li>
+              <li>Wildlife & Habitat Protection</li>
+              <li>Environmental Litigation & Dispute Resolution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title centered">Contact Us</h2>
+        <p class="section-subtitle centered">
+          Get in touch with our experienced legal team
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Our Headquarter</h4>
+                <p>
+                  ground floor, Royal House Complex, G-1, opposite Pradesh
+                  Today, <br />Indira Press Complex, Zone-I, Maharana Pratap
+                  Nagar, Bhopal, Madhya Pradesh 462011
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Our Associates</h4>
+                <p>
+                  In Mumbai,Delhi,Ahemadabad <br>Hyderbad,Jaipur,Raipur, <br>Shimla,Bangalore,Hubli,Indore,
+                  <br>Goa, Jodhpur, Nainital, Udaipur, Chennai, Kolkata,
+                  <br>Gandhinagar,Pune ,Thane, Patna, Kanpur, Lucknow,
+                 <br> Gurugram/Gurgaon, Mohali, Amritsar, Chandigarh, Noida etc
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone Number</h4>
+                <p>
+                  +91 86901 52856<br /><span class="contact-note"
+                    >24/7 Emergency Line</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email Address</h4>
+                <p>
+                  choudarylawfirm01@gmail.com<br /><span class="contact-note"
+                    >We respond within 24 hours</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h4>Office Hours</h4>
+                <p>
+                  Monday - Saturday: 9:00 AM - 9:00 PM<br />Sunday: 11:00 AM -
+                  4:00 PM<br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117316.24551181747!2d77.35093700199954!3d23.238258717630835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x397c43ee64a88f29%3A0x88e7739a66b45418!2sground%20floor%2C%20Royal%20House%20Complex%2C%20G-1%2C%20opposite%20Pradesh%20Today%2C%20Indira%20Press%20Complex%2C%20Zone-I%2C%20Maharana%20Pratap%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh%20462011!3m2!1d23.2382802!2d77.4333386!5e0!3m2!1sen!2sin!4v1754926982587!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <h2 class="testimonial-heading">What Our Clients Say</h2>
+
+        <div class="testimonial-slider">
+          <div class="slider-track" id="sliderTrack">
+            <div class="slide">
+              <img src="images/test1.png" alt="Testimonial 1" />
+            </div>
+            <div class="slide">
+              <img src="images/test2.png" alt="Testimonial 2" />
+            </div>
+            <div class="slide">
+              <img src="images/test3.png" alt="Testimonial 3" />
+            </div>
+            <div class="slide">
+              <img src="images/test4.png" alt="Testimonial 4" />
+            </div>
+          </div>
+        </div>
+        <div class="emergency-contact">
+          <div class="emergency-content">
+            <h3>24/7 Emergency Legal Support</h3>
+            <p>
+              Urgent legal matters don't wait for business hours. Call our
+              emergency line anytime.
+            </p>
+            <button
+              class="btn-primary"
+              onclick="openWhatsApp('I have an urgent legal matter and need immediate assistance')"
+            >
+              Contact Emergency Line
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <div class="footer-brand">
+              <img src="lawyer logo.png" alt="" srcset="" height="90px" />
+              <!-- <i class="fas fa-balance-scale"></i> -->
+              <span>CHOUDHARY LAW FIRM</span>
+            </div>
+            <p class="footer-description">
+              Providing exceptional legal services with integrity, dedication,
+              and proven results for over 11+ years.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Practice Areas</h4>
+            <ul>
+              <li><a href="#services">Corporate Law</a></li>
+              <li><a href="#services">Real Estate Law</a></li>
+              <li><a href="#services">Family Law</a></li>
+              <li><a href="#services">Criminal Defense</a></li>
+              <li><a href="#services">Personal Injury</a></li>
+              <li><a href="#services">Estate Planning</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#testimonials">Client Reviews</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#">Legal Resources</a></li>
+              <li><a href="#">Case Results</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact Information</h4>
+            <div class="contact-details">
+              <p>
+                <i class="fas fa-map-marker-alt"></i>
+             
+                    ground floor, Royal House Complex, G-1, opposite Pradesh
+                    Today, <br />Indira Press Complex, Zone-I, Maharana Pratap
+                    Nagar, Bhopal, Madhya Pradesh 462011
+                  
+              </p>
+              
+              <p><i class="fas fa-phone"></i>+91 86901 52856</p>
+              <p><i class="fas fa-envelope"></i>choudarylawfirm01@gmail.com</p>
+              <p>
+                <i class="fas fa-clock"></i>  
+                    Monday - Saturday: 9:00 AM - 9:00 PM<br />Sunday: 11:00 AM -
+                    4:00 PM<br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <p>&copy; 2025 CHOUDHARY LAW FIRM. All rights reserved.</p>
+            <div class="footer-legal">
+              <p>Developed By Bipul Chhetri</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="floating-buttons">
+      <a href="tel:+918690152856" class="floating-btn" aria-label="Call Now">
+        ☏ Call Now
+      </a>
+      <a
+        href="https://wa.me/+918690152856"
+        target="_blank"
+        rel="noopener"
+        class="floating-btn"
+        aria-label="Chat Now"
+      >
+        💬 Chat Now
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
