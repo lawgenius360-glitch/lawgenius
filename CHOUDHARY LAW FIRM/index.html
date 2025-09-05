@@ -17,6 +17,119 @@
   </head>
   <body>
     <!-- Navigation -->
+
+<!--  popup start-->
+  
+  <style>
+    /* Popup background */
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.85);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    /* Popup box */
+    .popup-box {
+      background: #fff;
+      padding: 30px;
+      max-width: 700px;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      overflow-y: auto;
+      max-height: 80vh;
+    }
+
+    .popup-box h2 {
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    .popup-box p {
+      text-align: justify;
+      font-size: 15px;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .consent {
+      margin: 15px 0;
+      font-size: 14px;
+      color: #333;
+      text-align: left;
+    }
+
+    .popup-box button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      background: #2c3e50;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .popup-box button:disabled {
+      background: #999;
+      cursor: not-allowed;
+    }
+
+    .popup-box button:hover:enabled {
+      background: #1a252f;
+    }
+  </style>
+
+
+  <!-- Popup -->
+  <div class="popup-overlay" id="popup">
+    <div class="popup-box">
+      <h2>Disclaimer</h2>
+      <p>
+        The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner. 
+        By accessing this website, www.choudharylawfirm.in, you acknowledge and confirm that you are 
+        seeking information relating to Choudhary Law Firm of your own accord and that there has 
+        been no form of solicitation, advertisement or inducement by Choudhary Law Firm or its 
+        members. The content of this website is for informational purposes only and should not be interpreted as 
+        soliciting or advertisement. No material/information provided on this website should be construed as legal advice. 
+        Choudhary Law Firm shall not be liable for consequences of any action taken by relying on 
+        the material/information provided on this website. The contents of this website are the intellectual property 
+        of Choudhary Law Firm.
+      </p>
+
+      <div class="consent">
+        <label>
+          <input type="checkbox" id="consentCheck" checked>
+          I acknowledge and agree to the disclaimer.
+        </label>
+      </div>
+
+      <button id="proceedBtn" onclick="proceed()">Proceed to Website</button>
+    </div>
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+<!--     popup end -->
     <nav class="navbar" id="navbar">
       <div class="nav-container">
         <div class="nav-brand">
