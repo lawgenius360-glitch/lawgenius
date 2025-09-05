@@ -318,7 +318,7 @@ window.addEventListener('resize', () => {
 
 
 
-  <script>
+ 
     const checkbox = document.getElementById("consentCheck");
     const proceedBtn = document.getElementById("proceedBtn");
 
@@ -330,4 +330,4 @@ window.addEventListener('resize', () => {
       document.getElementById("popup").style.display = "none";
       document.getElementById("website-content").style.display = "block";
     }
-  </script>
+
