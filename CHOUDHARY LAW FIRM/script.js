@@ -312,3 +312,22 @@ window.addEventListener('resize', () => {
     sliderTrack.style.transition = 'transform 0.5s ease-in-out';
   }, 50);
 });
+
+
+// popup 
+
+
+
+  <script>
+    const checkbox = document.getElementById("consentCheck");
+    const proceedBtn = document.getElementById("proceedBtn");
+
+    checkbox.addEventListener("change", () => {
+      proceedBtn.disabled = !checkbox.checked;
+    });
+
+    function proceed() {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("website-content").style.display = "block";
+    }
+  </script>
